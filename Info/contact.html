@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="top-menu">
+        <a href="../index.html"><img src="../favicon.ico" alt="logo" /></a>
+        <button id="light-on">
+          <img
+            src="../imgs/light-on.jpg"
+            alt="A light-switch - right now its on, so the background of this article will be white." />
+        </button>
+        <button id="light-off">
+          <img
+            src="../imgs/light-off.jpg"
+            alt="A light-switch - right now its off, so the background of this article will be black." />
+        </button>
+        <a class="web-info" href="../index.html">Home</a>
+        <a class="web-info" href="./about.html">About</a>
+        <a class="web-info" href="./contact.html">Contact</a>
+        <a class="web-info" href="../Articles/articles.html">Articles</a>
+        <div id="menu-whole">
+          <p id="menu">Menu</p>
+          <div id="short-header">
+            <a class="small" href="../index.html">Home</a>
+            <a class="small" href="./about.html">About</a>
+            <a class="small" href="./contact.html">Contact</a>
+            <a class="small" href="../Articles/articles.html">Articles</a>
+          </div>
+        </div>
+      </div>
+      <h1 class="light-toggled">Contact</h1>
+    </header>
+    <main class="devleoping-facts-information">
+      <section>
+        <h2 class="light-toggled">Email: jiangjaydenjmx@gmail.com</h2>
+        <h2 class="light-toggled">Phone Number: 000-000-0000</h2>
+      </section>
+      <section>
+        <form onsubmit="alert('Your response has been recorded.')">
+          <label class="light-toggled" for="suggestions">Any suggestions to improve our website?</label>
+          <textarea name="suggestions" id="suggestions" style="font-size: 20px" required="required"></textarea>
+          <input type="submit" name="Submit" id="submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="light-toggled">© 2024 Developing Facts Private Limited. All rights reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

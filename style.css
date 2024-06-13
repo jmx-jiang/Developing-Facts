@@ -1,0 +1,342 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #f2f2f2;
+  width: 100%;
+  display: grid;
+  margin: 0;
+}
+
+.side-bar a {
+  color: rgb(0, 150, 255);
+}
+
+.side-bar p,
+.side-bar h2,
+.sidebar h3 {
+  color: #f2f2f2;
+  white-space: normal;
+}
+
+.side-bar > * {
+  margin: 10px 10px;
+  font-size: fit-content;
+}
+
+.side-bar > div {
+  height: 30px;
+  width: 100%;
+  background-color: #4d4d4d;
+}
+
+.side-bar {
+  padding: 5px;
+  background-color: #4d4d4d;
+  border: gray 2px solid;
+  display: inline-block;
+  border: none;
+  position: fixed;
+  overflow-y: scroll;
+  margin-right: 20%;
+  height: 100%;
+  top: 50px;
+  display: none;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+#top-menu {
+  display: flex;
+  background-color: #3d3d3d;
+  height: 50px;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+#top-menu a,
+#top-menu p {
+  text-decoration: none;
+  height: 100%;
+  margin: 0 5%;
+  font-size: 2em;
+  margin: 0;
+}
+
+#top-menu p {
+  color: #f2f2f2;
+}
+
+#top-menu a {
+  color: rgb(0, 150, 255);
+}
+
+#top-menu > a:hover {
+  font-size: 250%;
+}
+
+#top-menu > *:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#top-menu img {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h3 img {
+  width: 50px;
+  height: 50px;
+}
+
+b {
+  color: chocolate;
+}
+
+a {
+  color: rgb(0, 0, 255);
+}
+
+a:hover {
+  text-shadow: 1px 1px 2px black, 2px 2px 4px white;
+}
+
+#menu {
+  display: none;
+}
+
+#short-header {
+  width: 300px;
+  height: 20px;
+  background-color: rgb(33, 28, 28);
+  position: fixed;
+  top: 40px;
+  z-index: 2;
+  display: none;
+  justify-content: space-between;
+  right: 20px;
+  padding: 10px;
+}
+
+#short-header *.small {
+  font-size: 16px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#short-header a:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+figcaption {
+  text-align: center;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+footer {
+  margin-left: 10vw;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10vw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+textarea {
+  margin: 10px 0;
+  width: 50%;
+  height: 100px;
+  display: block;
+}
+
+p,
+li,
+b,
+input,
+a,
+figcaption,
+label,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figcaption {
+  color: #222;
+}
+
+i {
+  color: white;
+}
+
+main,
+h1,
+footer {
+  max-width: 800px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  display: flex;
+}
+
+.super-important {
+  color: rgb(200, 0, 0);
+}
+
+button img {
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  border-bottom: solid 2px gray;
+}
+
+.to-article {
+  margin: 0;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #24a0ed;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+#top-menu button img {
+  width: 100%;
+  height: 100%;
+}
+
+#light-off {
+  display: none;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+@media (min-width: 1000px) {
+  main p,
+  footer p,
+  figcaption {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #menu {
+    display: inline-block;
+  }
+
+  .web-info {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  main p,
+  footer p,
+  figcaption {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  #top-menu a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  #top-menu a,
+  figcaption {
+    font-size: 14px;
+  }
+
+  #top-menu > button,
+  .container * {
+    max-width: 20px;
+  }
+}
