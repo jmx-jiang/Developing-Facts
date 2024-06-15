@@ -1,1 +1,1 @@
-This respitory is about a website containing articles about the different types of developers. Note that the form on the contact page goes not work. 
+This website contains articles about the different types of developers. The form on the contact page does not work. There might be typos on this website.
